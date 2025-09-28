@@ -11,7 +11,4 @@ public static void main(String args[]){
     
     update(marks);
 }
-    //     int numbers[] = {3,4,5};
-    //     System.out.println(numbers);
-    // 
 }
