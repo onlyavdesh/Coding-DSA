@@ -17,5 +17,6 @@ public class pairsinjava {
         printPairs(numbers);
     }
 }
+// this is for pairs in  java 
     
 
