@@ -6,15 +6,17 @@ public class Kardans {
             currentsum = currentsum +arr[i];
             if ( currentsum < 0){
                 currentsum = 0;
-            } 
+            }
             if ( maxsum < currentsum ){
               maxsum = currentsum;
+            } 
             }
-         }
+            if (maxsum == 0){
+                System.out.println( " All values are ngative "); }
         System.out.println("Your max subarray sum is "+maxsum);
     }
     public static void main(String args[]){
-        int arr[] = { 2,3,4,-6,-9,5,-20};
+        int arr[] = { -2,-3,-4,-6,-9,-5,-20};
         kardan(arr);
     } 
     
