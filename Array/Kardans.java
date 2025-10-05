@@ -10,12 +10,13 @@ public class Kardans {
             if ( maxsum < currentsum ){
               maxsum = currentsum;
             }
-
-        }System.out.println("Your max subarray sum is "+maxsum);
+         }
+        System.out.println("Your max subarray sum is "+maxsum);
     }
     public static void main(String args[]){
         int arr[] = { 2,3,4,-6,-9,5,-20};
         kardan(arr);
     } 
     
+
 }
