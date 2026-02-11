@@ -22,6 +22,6 @@ public class linearsearch {
        linearsr(num, key);
 
     }
-    
+     
 }
 
