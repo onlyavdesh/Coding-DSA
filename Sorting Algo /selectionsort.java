@@ -22,6 +22,6 @@ public class selectionsort {
         System.out.println(Arrays.toString(arr));
         
     }
-}
+}//
     
 
