@@ -22,6 +22,7 @@ public class kth_element {
 
         return arr[k - 1];
     }
+    // Code 
 
     public static void main(String args[]) {
         int arr[] = {3, 5, 2, 5, 7, 7, 78};
