@@ -30,6 +30,6 @@ public class peakelement_mountain {
         int result = peakIndexInMountainArray(arr);
 
         System.out.println("Peak index is: " + result);
-        System.out.println("Peak element is: " + arr[result]);//
+        System.out.println("Peak element is: " + arr[result]);
     }
 }
