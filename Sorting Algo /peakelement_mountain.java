@@ -32,4 +32,4 @@ public class peakelement_mountain {
         System.out.println("Peak index is: " + result);
         System.out.println("Peak element is: " + arr[result]);
     }
-}///////////////
+}
