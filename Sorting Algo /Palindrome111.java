@@ -31,4 +31,4 @@ public class Palindrome111{
 
         sc.close();
     }
-}///////////
+}///
