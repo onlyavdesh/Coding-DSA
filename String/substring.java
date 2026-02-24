@@ -4,7 +4,7 @@ public class substring {
      String s = "AVDESH";
      for (int i = 0 ; i<s.length(); i++){
         for (int j = i ; j<s.length(); j++){
-            System.out.println(s.substring(i,j));
+            System.out.print(s.substring(i,j));
         }
      }
     }
