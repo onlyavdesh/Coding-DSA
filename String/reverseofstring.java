@@ -25,5 +25,4 @@ public class reverseofstring {
         System.out.println(reverseString(S));
     }
 }
-/////////////
 
