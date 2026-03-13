@@ -3,7 +3,7 @@ package DimensionalArray;
 public class rotateby90 {
     public static void rotate( int[][] arr){
         //transpose 
-        for (int i = 0;i<arr.length;i++){
+        for (int i = 1;i<arr.length;i++){
             for ( int j =i+1 ; j<arr.length;j++){
               int temp = arr[i][j];
               arr[i][j] = arr[j][i];
@@ -12,10 +12,15 @@ public class rotateby90 {
         }
        // reverse 
         for ( int i = 0 ; i<arr.length;i++){
-            for (int j = arr[0].length-1;j>=0;j--){
-             System.out.print(arr[i][j]+" ");
-            }
-              System.out.println();
+           int s = 0 ; 
+           int e = arr[0].length;
+           while (s<e){
+            int temp = arr[i][s];
+            arr[i][s] = arr[i][e];
+            arr[i][e] = temp ; 
+            s++;
+            e--;
+           }
         }
       
     }
