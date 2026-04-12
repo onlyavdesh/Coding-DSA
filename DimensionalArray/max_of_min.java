@@ -16,7 +16,17 @@ public class max_of_min {
              } System.out.print(max);
  } 
     
-}
+}////
+
+
+//
+
+//
+///]
+/// 
+/// /
+/// /
+///
 
 
 
