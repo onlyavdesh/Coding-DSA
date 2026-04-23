@@ -24,8 +24,4 @@ public class reverseofstring {
         String S = "fghjDFGHJK";
         System.out.println(reverseString(S));
     }
-}/////
-////
-/// 
-/// 
-/// 
+}//
