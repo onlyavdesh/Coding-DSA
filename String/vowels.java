@@ -12,5 +12,5 @@ public class vowels {
         System.out.print(count);
     } 
     
-}///
+}
 
